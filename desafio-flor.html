@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            margin: auto;
+            width: 400px;
+            height: 400px;
+        }
+        .pet1, .pet2, .pet3, .pet4{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            top: -320px;
+        }
+        .petf1{
+            width: 150px;
+            height: 150px;
+            background-image: linear-gradient(315deg,black, black, #483BED, #7E3EF7, #A444E1);
+            position: relative;
+            top:420px;
+            z-index: -1;
+            border-radius: 0 75% 0 75%;
+            rotate: -45deg;
+        }
+        .petf2{
+            width: 150px;
+            height: 150px;
+            background-image: linear-gradient(315deg,black, black, #483BED, #7E3EF7, #A444E1);
+            position: relative;
+            top:150px;
+            left:125px;
+            z-index: -1;
+            border-radius: 0 75% 0 75%;
+            rotate: 45deg;
+        }
+        .petf3{
+            width: 150px;
+            height: 150px;
+            background-image: linear-gradient(45deg,black, black, #483BED, #7E3EF7, #A444E1);
+            position: relative;
+            top: 120px;
+            left: 250px;
+            z-index: -1;
+            border-radius: 75% 0 75% 0;
+            rotate: 45deg;
+        }
+        .petf4{
+            width: 150px;
+            height: 150px;
+            background-image: linear-gradient(45deg,black, black, #483BED, #7E3EF7, #A444E1);
+            position: relative;
+            left: 125px;
+            top: 90px;
+            border-radius: 75% 0 75% 0;
+            rotate: 135deg;
+        }
+        .pet1{
+            background-image: linear-gradient(135deg, #483BED, #7E3EF7, #A444E1, #E33EF7, #F62F90);
+            float: left;
+            border-radius: 0 75% 0 75%;
+        }
+        .pet2{
+            background-image: linear-gradient(225deg, #483BED, #7E3EF7, #A444E1, #E33EF7, #F62F90);
+            float: right;
+            border-radius: 75% 0 75% 0;
+        }
+        .pet3{
+            background-image: linear-gradient(45deg, #483BED, #7E3EF7, #A444E1, #E33EF7, #F62F90);
+            float: left;
+            border-radius: 75% 0 75% 0;
+        }
+        .pet4{
+            background-image: linear-gradient(325deg, #483BED, #7E3EF7, #A444E1, #E33EF7, #F62F90);
+            float: right;
+            border-radius: 0 75% 0 75%;
+        }
+        .caule{
+            width: 20px;
+            height: 500px;
+            background-color: black;
+            position: relative;
+            left: 190px;
+            z-index: -2;
+        }
+        .miolo{
+            background-image: radial-gradient(orange, yellow);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            bottom:645px;
+            left: 175px;
+            box-shadow: yellow 0 0 15px;
+        }
+        .foiaverde{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 75% 0 75% 0;
+            position: relative;
+            bottom: 400px;
+            left:200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="petf1"></div>
+        <div class="petf2"></div>
+        <div class="petf3"></div>
+        <div class="petf4"></div>
+        <div class="pet1">
+            <div class="folha1"></div>
+        </div>
+        <div class="pet2">
+            <div class="folha2"></div>
+        </div>
+        <div class="pet3">
+            <div class="folha3"></div>
+        </div>
+        <div class="pet4">
+            <div class="folha4"></div>
+        </div>
+        <div class="caule"></div>
+        <div class="miolo"></div>
+        <div class="foiaverde"></div>
+    </div>
+</body>
+</html>
